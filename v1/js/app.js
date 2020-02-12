@@ -286,11 +286,11 @@ $$('.infinite-scroll-content').on('infinite', function () {
     '<li>'+
       '<a href="/single/">'+
         '<div class="item-content">'+
-          '<div class="item-media"><img src="img/thumb-15.jpg" width="44"/></div>'+
+          '<div class="item-media"><img src="https://s2.glbimg.com/BbNSz9tc-OHXRMo8TFI8pSLGZec=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/0/V/IL8N48TYuhKB6Sw4PAfQ/bbb20-100220-230113.jpg" width="44"/></div>'+
           '<div class="item-inner">'+
-            '<div class="item-subtitle">Fashion</div>'+
-            '<div class="item-title">Archery at the 2024 Olympic Games</div>'+
-            '<div class="item-subtitle bottom-subtitle"><img src="img/authors/author-3.jpg">Jess Roxana</div>'+
+            '<div class="item-subtitle">Há 12 horas</div>'+
+            '<div class="item-title">Notícia nova carregada</div>'+
+            '<div class="item-subtitle bottom-subtitle"><img src="https://lh3.googleusercontent.com/hqio5rSTs1fEQCM9JPPneN2C-dB4H8G_T1HLdy-gHbTQIU0oq2f7z1GpO8qmdfBYxpdx">GSHOW</div>'+
           '</div>'+
         '</div>'+
       '</a>'+
@@ -298,11 +298,11 @@ $$('.infinite-scroll-content').on('infinite', function () {
     '<li>'+
       '<a href="/single/">'+
         '<div class="item-content">'+
-          '<div class="item-media"><img src="img/thumb-16.jpg" width="44"/></div>'+
+          '<div class="item-media"><img src="https://s2.glbimg.com/BbNSz9tc-OHXRMo8TFI8pSLGZec=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/0/V/IL8N48TYuhKB6Sw4PAfQ/bbb20-100220-230113.jpg" width="44"/></div>'+
           '<div class="item-inner">'+
-            '<div class="item-subtitle">Fashion</div>'+
-            '<div class="item-title">Most Beautiful Beach of the Costa Brava</div>'+
-            '<div class="item-subtitle bottom-subtitle"><img src="img/authors/author-2.jpg">Zorka Ivka</div>'+
+            '<div class="item-subtitle">Há 14 horas</div>'+
+            '<div class="item-title">Notícia nova carregada 2</div>'+
+            '<div class="item-subtitle bottom-subtitle"><img src="https://lh3.googleusercontent.com/hqio5rSTs1fEQCM9JPPneN2C-dB4H8G_T1HLdy-gHbTQIU0oq2f7z1GpO8qmdfBYxpdx">GSHOW</div>'+
           '</div>'+
         '</div>'+
       '</a>'+

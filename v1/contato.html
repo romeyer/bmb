@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Big Monitor Brasil</title>
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="color-theme-pink">
+
+    <div id="app">
+      <div class="views tabs">
+
+        <div id="view-today" class="view view-main tab tab-active">
+          <div data-name="home" class="page no-navbar">
+
+            <div class="page no-navbar" data-name="contact">
+              <div class="page-content">
+                <a href="#" class="link back close-button">
+                  <img src="img/close.svg" alt="Close">
+                </a>
+                <div class="oval"></div>
+                <div class="block">
+                  <div class="contact-container">
+                    <div class="contact-icon"><i class="icon ion-ios-mail-open"></i></div>
+                    <h1>Entre em contato</h1>
+                    <div class="list no-hairlines custom-form contact-form">
+                      <ul>
+                        <li class="item-content item-input">
+                          <div class="item-inner">
+                            <div class="item-input-wrap">
+                              <input type="text" placeholder="Nome">
+                              <span class="input-clear-button"></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="item-content item-input">
+                          <div class="item-inner">
+                            <div class="item-input-wrap">
+                              <input type="email" placeholder="E-mail">
+                              <span class="input-clear-button"></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="item-content item-input">
+                          <div class="item-inner">
+                            <div class="item-input-wrap">
+                              <textarea class="resizable" placeholder="Mensagem"></textarea>
+                              <span class="input-clear-button"></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <a class="big-button button button-fill link"><i class="icon ion-ios-send"></i>Enviar Mensagem</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        
+        <!-- Toolbar -->
+        <div class="toolbar tabbar tabbar-labels">
+          <div class="toolbar-inner">
+            <a href="#view-today" class="tab-link tab-link-active">
+              <i class="icon ion-ios-today"></i>
+              <span class="tabbar-label">Agora</span>
+            </a>
+            <a href="#view-categories" class="tab-link">
+              <i class="icon ion-ios-apps"></i>
+              <span class="tabbar-label">Participantes</span>
+            </a>
+            <a href="#view-discover" class="tab-link">
+              <i class="icon ion-ios-star"></i>
+              <span class="tabbar-label">Explore</span>
+            </a>
+            <a href="#view-search" class="tab-link">
+              <i class="icon ion-ios-search"></i>
+              <span class="tabbar-label">Pesquise</span>
+            </a>
+            <a href="#view-pages" class="tab-link">
+              <i class="icon ion-ios-albums"></i>
+              <span class="tabbar-label">Config</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

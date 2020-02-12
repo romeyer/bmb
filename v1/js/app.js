@@ -416,34 +416,41 @@ var shareActions = app.actions.create({
   buttons: [
     [
       {
-        text: 'Share this on:',
+        text: 'Compartilhar em:',
         label: true
       },
       {
         text: 'Facebook',
         bold: true,
         onClick: function () {
-         window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//themeforest.net', '_blank');
+         window.open('https://www.facebook.com/sharer/sharer.php?u=http%3A//bigmonitorbrasil', '_blank');
        }
       },
       {
         text: 'Twitter',
         bold: true,
         onClick: function () {
-         window.open('http://twitter.com/share?text=Welcome%20To%20Yui&url=http://themeforest.net&hashtags=template,mobile', '_blank');
+         window.open('http://twitter.com/share?text=Texto%20do%20link%20a%20ser%20compartilhado%20Rodrigo%20Meyer&url=http://bigmonitorbrasil&hashtags=HASTAGS,mobile', '_blank');
+       }
+      },
+      {
+        text: 'Instagram',
+        bold: true,
+        onClick: function () {
+         window.open('http://Instagram.com?text=Texto%20do%20link%20a%20ser%20compartilhado%20Rodrigo%20Meyer&url=http://bigmonitorbrasil&hashtags=HASTAGS,mobile', '_blank');
        }
       },
       {
         text: 'Mail',
         bold: true,
         onClick: function () {
-         window.open('mailto:someone@example.com?Subject=Hello', '_blank');
+         window.open('mailto:hal@goritmo.com?Subject=RoMeyer', '_blank');
        }
       }
     ],
     [
       {
-        text: 'Cancel',
+        text: 'Cancelar',
         color: 'red'
       }
     ]
